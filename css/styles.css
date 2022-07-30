@@ -139,6 +139,7 @@ body {
 .features-list {
     list-style-type: none;
 }
+
 .features-list .title {
     color: var(--title-text-color);
 
@@ -151,7 +152,7 @@ body {
 .title {
 
     font-size: 14px;
-     line-height: 1.71;
+    line-height: 1.71;
 }
 
 /* What are we doing */
@@ -197,11 +198,11 @@ body {
 
 /* Портфоліо МЕНЮ */
 
-.portfolio-menu {
+.portfolio {
     list-style-type: none;
 }
 
-.portfolio-menu .button {
+.portfolio .button {
     color: var(--title-text-color);
     background-color: var(--button-background-color);
 
@@ -212,8 +213,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.portfolio-menu .button:hover,
-.portfolio-menu .button:focus {
+.portfolio .button:hover,
+.portfolio .button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
@@ -222,9 +223,9 @@ body {
     color: var(--title-text-color);
 
     font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-group {
@@ -232,12 +233,4 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-}
-
-.portfolio {
-    list-style-type: none;
-}
-
-.list {
-    list-style-type: none;
 }
