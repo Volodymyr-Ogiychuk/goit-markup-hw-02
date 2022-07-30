@@ -5,6 +5,7 @@
 /* Акцент #2196F3 */
 /* Первичный цвет фона #ffffff */
 /* Вторичный цвет фона #2F303A */
+/* Цвет фона кнопок #F5F4FA; */
 /* описане шрифтов Roboto и Raleway    
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif; */
@@ -17,12 +18,14 @@
     --primary-white-color: #ffffff;
     --secondary-background-color: #2F303A;
     --logo-second-part: #000000;
+    --button-background-color: #F5F4FA;
 
 }
 
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -97,12 +100,12 @@ body {
 .hero-title {
     color: var(--primary-white-color);
 
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
@@ -116,6 +119,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
 /* Section */
@@ -171,7 +176,7 @@ body {
 }
 
 .position {
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.19;
 }
@@ -188,4 +193,51 @@ body {
     color: var(--primary-white-color);
     text-decoration: none;
     font-style: normal;
+}
+
+/* Портфоліо МЕНЮ */
+
+.portfolio-menu {
+    list-style-type: none;
+}
+
+.portfolio-menu .button {
+    color: var(--title-text-color);
+    background-color: var(--button-background-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-menu .button:hover,
+.portfolio-menu .button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-titles {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.portfolio-group {
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.portfolio {
+    list-style-type: none;
+}
+
+.list {
+    list-style-type: none;
 }
